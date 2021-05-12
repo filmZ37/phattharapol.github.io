@@ -1,0 +1,54 @@
+head{
+    background-color: rgb(233, 190, 134);
+}
+
+body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: black;
+    background-color: #85db89;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover  ; }
+    
+h1{
+    font-weight: bold;
+    font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar{
+    position: absolute;
+    top: 4em;        
+    left: 1em;
+    width: 7em 
+    }
+ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 0.5em solid black }
+ul.navbar a {
+    text-decoration: none }
+a:link {
+    color: blue }
+a:visited {
+    color: purple }
+
+
+
+.picture{
+    align-content: center;
+    padding: 5px;
+    height: 200px;
+    width: auto;
+}
+.rainbow-text{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 3em;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
